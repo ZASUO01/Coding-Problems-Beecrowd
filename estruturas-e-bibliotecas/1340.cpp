@@ -1,3 +1,4 @@
+//Eu Posso Adivinhar a Estrutura de Dados!
 #include <iostream>
 #include <queue>
 #include <stack>
