@@ -8,6 +8,7 @@ Problemas resolvidos na plataforma Beecrowd
 - [2653 | Dijkstra](./iniciante/2653.cpp)
 
 ## [2 - AD-HOC](./ad-hoc/)
+- [1404 | MegaDamas](./ad-hoc/1404.cpp)
 - [1470 | Máquina Dobradora](./ad-hoc/1470.cpp)
 
 ## [5 - Matemática](./matemática/)
