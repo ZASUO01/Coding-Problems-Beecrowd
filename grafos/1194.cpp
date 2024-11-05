@@ -4,14 +4,6 @@
 using namespace std;
 
 int main(){
-    int c, n;
-
-    cin >> c;
-
-    while(c--){
-        cin >> n;
-    }
-
-
+    //TODO
     return 0;
 }

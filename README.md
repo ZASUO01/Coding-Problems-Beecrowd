@@ -8,13 +8,16 @@ Problemas resolvidos na plataforma Beecrowd
 - [2653 | Dijkstra](./iniciante/2653.cpp)
 
 ## [2 - AD-HOC](./ad-hoc/)
+- [1357 | Em Braille](./ad-hoc//1357.cpp)
 - [1404 | MegaDamas](./ad-hoc/1404.cpp)
 - [1470 | Máquina Dobradora](./ad-hoc/1470.cpp)
 
-## [5 - Matemática](./matemática/)
+## [3 - Strings](./strings/)    
 
 ## [4 - Estruturas e Bibliotecas](./estruturas-e-bibliotecas/)
 - [1340 | Eu Posso Adivinhar a Estrutura de Dados!](./estruturas-e-bibliotecas/1340.cpp)
+
+## [5 - Matemática](./matemática/)
 
 ## [6 - Paradigmas](./paradigmas/)
 - [1642 | Teclado Quebrado](./paradigmas/1642.cpp)
@@ -22,3 +25,4 @@ Problemas resolvidos na plataforma Beecrowd
 
 ## [7 - Grafos](./grafos/)
 - [1082 | Componentes Conexos](./grafos/1082.cpp)
+- [1205 | Cerco a Leningrado](./grafos/1205.cpp)

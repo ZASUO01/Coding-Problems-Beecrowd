@@ -5,6 +5,7 @@
 
 using namespace std;
 
+//Given an index of the original vector, it returns the result vector after a fold
 vector<int> getFold(int index, vector<int> &vec){
     vector<int> left(vec.begin(), vec.begin() + index);
     vector<int> right(vec.begin() + index, vec.end());
@@ -30,6 +31,7 @@ vector<int> getFold(int index, vector<int> &vec){
     }
 }
 
+//Aux function to check if the fold is equal the original vector reversed
 bool compareReverse(vector<int> &input, vector<int> &output){
     vector<int> temp(input.begin(), input.end());
     reverse(temp.begin(), temp.end());
@@ -37,12 +39,16 @@ bool compareReverse(vector<int> &input, vector<int> &output){
     return(temp == output);
 }
 
+//Compare an original vector to a folded vector. 
+//It returns true if the the folded can be achived by folding the original
 bool compareFold(vector<int> &input, vector<int> &output){
+    //Base cases
     if(input == output) return true;
     if(compareReverse(input, output)) return true;
 
     bool isEqual = false;
 
+    //Iterate through each vector position and get a fold from it
     for(int i = 1; i < input.size(); i++){
         if(isEqual) break;
 
@@ -50,6 +56,8 @@ bool compareFold(vector<int> &input, vector<int> &output){
 
         if(fold.size() < output.size()) continue;
 
+        //if a fold from this position is equal to the output then return true
+        //else, try folding from the current fold until finding some equal to the output
         if(fold == output){
             isEqual = true;
             break;

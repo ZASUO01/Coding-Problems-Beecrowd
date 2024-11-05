@@ -1,12 +1,9 @@
-//O Salão do Clube
-#include <iostream>
-#include <vector>
-#include <algorithm>
-#include <climits>
+//O salão do clube
+#include<iostream>
 
 using namespace std;
 
-int main() {
-   
-    return 0;
+int main(){
+    //TODO
+    return  0;
 }

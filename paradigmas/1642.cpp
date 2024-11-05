@@ -1,4 +1,4 @@
-//1642
+//Teclado Quebrado
 #include <iostream>
 #include <string>
 #include <unordered_map>
@@ -7,12 +7,13 @@ using namespace std;
 
 #define MAX(a, b) (a > b ? a : b)
 
+//It returns the maximum subsequence that can be typed with a m number of distinct keys
 int getMaxSubSequence(int m, string &text) {
     unordered_map<char, int> charCount;
     int maxSequence = 0;
     int left = 0;
 
-    for (int right = 0; right < text.size(); ++right) {
+    for(int right = 0; right < text.size(); right++) {
         charCount[text[right]]++;
 
         while (charCount.size() > m) {

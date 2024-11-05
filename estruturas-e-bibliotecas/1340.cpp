@@ -12,12 +12,17 @@ int main(){
     int n, op, val, i;
 
     while(cin >> n){
+        //Initialize each type of data structure
         queue<int> q;
         stack<int> s;
         priority_queue<int> pq;
 
+        //Vector that says which structure is being used by the input.
+        //Initially could be all
         vector<bool> isDs(3, true);
         
+        //Perform the insert and removal operations in each of them
+        //Check if the input value matches the structure removed value
         for(i = 0; i < n; i++){
             cin >> op >> val;
 
