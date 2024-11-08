@@ -5,6 +5,7 @@ Problemas resolvidos na plataforma Beecrowd
 ## [1 - Iniciante](./iniciante/)
 - [1001 | Extremamente Básico](./iniciante/1001.cpp)
 - [1021 | Notas e Moedas](./iniciante/1021.cpp)
+- [1930 | Tomadas](./iniciante/1930.cpp)
 - [2653 | Dijkstra](./iniciante/2653.cpp)
 
 ## [2 - AD-HOC](./ad-hoc/)
@@ -20,6 +21,7 @@ Problemas resolvidos na plataforma Beecrowd
 ## [5 - Matemática](./matemática/)
 
 ## [6 - Paradigmas](./paradigmas/)
+- [1288 | Canhão de Destruição](./paradigmas/1288.cpp)
 - [1642 | Teclado Quebrado](./paradigmas/1642.cpp)
 - [1767 | Saco do Papai Noel](./paradigmas/1767.cpp)
 
