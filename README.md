@@ -16,7 +16,9 @@ Problemas resolvidos na plataforma Beecrowd
 ## [3 - Strings](./strings/)    
 
 ## [4 - Estruturas e Bibliotecas](./estruturas-e-bibliotecas/)
+- [1252 | Sort! Sort!! e Sort!!!](./estruturas-e-bibliotecas/1252.cpp)
 - [1340 | Eu Posso Adivinhar a Estrutura de Dados!](./estruturas-e-bibliotecas/1340.cpp)
+- [2136 | Amigos do Habay](./estruturas-e-bibliotecas/2136.cpp)
 
 ## [5 - Matemática](./matemática/)
 
