@@ -17,7 +17,8 @@ Problemas resolvidos na plataforma Beecrowd
 
 ## [4 - Estruturas e Bibliotecas](./estruturas-e-bibliotecas/)
 - [1211 | Lista Telefônica Econômica](./estruturas-e-bibliotecas/1211.cpp) 
-- [1252 | Sort! Sort!! e Sort!!!](./estruturas-e-bibliotecas/1252.cpp) 
+- [1252 | Sort! Sort!! e Sort!!!](./estruturas-e-bibliotecas/1252.cpp)
+- [1256 | Tabelas Hash](./estruturas-e-bibliotecas/1256.cpp)
 - [1340 | Eu Posso Adivinhar a Estrutura de Dados!](./estruturas-e-bibliotecas/1340.cpp)
 - [1520 | Parafusos e Porcas](./estruturas-e-bibliotecas/1520.cpp)
 - [2136 | Amigos do Habay](./estruturas-e-bibliotecas/2136.cpp)
